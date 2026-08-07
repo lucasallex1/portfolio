@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio - Lucas Állex Carvalho de Oliveira</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <nav class="navbar">
+      <h1 class="logo">Lucas Állex Carvalho de Oliveira</h1>
+      <ul class="nav-links">
+        <li><a href="#about">Sobre mim</a></li>
+        <li><a href="#experiencias">Experiências</a></li>
+        <li><a href="#contact">Contato</a></li>
+        <li><button id="theme-toggle" aria-label="Alternar tema"></button></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <div class="hero-content">
+      <img src="img/minha_foto.png" alt="Foto de Lucas Állex" class="profile-pic">
+      
+      <div class="hero-text">
+        <h2>Estudante em Engenharia Elétrica</h2>
+        <div class="university">
+          <img src="img/ufsj.png" alt="Logo UFSJ" class="ufsj-logo">
+          <span>Universidade Federal de São João del-Rei</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>Sobre mim</h2>
+
+    <p>Sou estudante de Engenharia Elétrica na UFSJ, movido pela busca de soluções eficientes e inovadoras. Atualmente, atuo como Pesquisador de Iniciação Científica no desenvolvimento de uma estufa solar rotativa, aplicando conhecimentos práticos em automação com Arduino para monitoramento térmico, análise de dados e eficiência energética.</p>
+
+    <p>Durante minha trajetória, atuei como Diretor Presidente da Ejel (Empresa Júnior de Engenharia Elétrica da UFSJ). Sob minha gestão, lideramos a equipe rumo à certificação "Palco Diamante" no ENEJ 2025, ultrapassando a meta de faturamento (mais de R$ 75 mil) e entregando um projeto elétrico de forte impacto social. Essa vivência desenvolveu profundamente minhas habilidades de liderança, gestão estratégica (OKR, Kanban) e elaboração de projetos conforme a NBR utilizando AutoCAD e AltoQi.</p>
+
+    <p>No ambiente corporativo, destaco meu Estágio de Férias na Aperam S.A., onde vivenciei a rotina industrial na área de Utilidades e Alta Tensão. Fui responsável por aplicar soluções criativas, como o uso do NotebookLM para automatizar planilhas de Análise Preliminar de Risco, reduzindo o tempo de preenchimento em 90%, além de atuar ativamente com gestão de indicadores, FMEA, HAZOP e normas ISO.</p>
+
+    <p>Possuo facilidade e domínio em ferramentas de software e simulação, incluindo Excel, Power BI, Python, MATLAB, PSIM e LaTeX. Busco uma oportunidade para aplicar minha bagagem técnica e minhas competências comportamentais em projetos desafiadores, contribuindo para soluções inovadoras na área de Engenharia Elétrica.</p>
+  </section>
+
+  <section id="experiencias">
+    <h2>Experiências</h2>
+    <div class="card-container">
+      <div class="card">
+        <h3>Empresa Júnior (UFSJ)</h3>
+        <a href="#" class="open-modal" data-modal="ejelModal">Ver mais →</a>
+      </div>
+      <div class="card">
+        <h3>Aperam SA</h3>
+        <a href="#" class="open-modal" data-modal="aperamModal">Ver mais →</a>
+      </div>
+      <div class="card">
+        <h3>Iniciação Científica (UFSJ)</h3>
+        <a href="#" class="open-modal" data-modal="icModal">Ver mais →</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="ejelModal" class="modal">
+    <div class="modal-content modal-large">
+      <button class="close-button">&times;</button>
+      <h3>Ejel - Consultoria e Projetos Elétricos Júnior</h3>
+      <h4>Diretor Presidente e Assessor (Jan 2024 - Dez 2025)</h4>
+
+      <div class="tab-container">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-target="tab-pel01">PEL 01</button>
+          <button class="tab-btn" data-target="tab-pel02">PEL 02</button>
+          <button class="tab-btn" data-target="tab-pel03">PEL 03</button>
+          <button class="tab-btn active" data-target="tab-pel04">PEL 04</button>
+          <button class="tab-btn" data-target="tab-pel05">PEL 05</button>
+          <button class="tab-btn" data-target="tab-ppci01">PPCI 01</button>
+        </div>
+
+        <div id="tab-pel01" class="tab-content">
+
+          <div class="sub-portfolio-container">
+            <div class="sub-tab-buttons">
+              <button class="sub-tab-btn sub-active" data-subtarget="pel01-historia">PEL 01: Contexto</button>
+              <button class="sub-tab-btn" data-subtarget="pel01-plantas">PEL 01: Plantas Baixas</button>
+              <button class="sub-tab-btn" data-subtarget="pel01-diagramas">PEL 01: Diagramas & Cargas</button>
+            </div>
+
+            <div id="pel01-historia" class="sub-tab-content sub-active">
+              <p><strong>Primeiro Projeto Autônomo Pós-Gestão Ejel:</strong></p>
+              <p>Este projeto representa um marco comercial: logo após concluir minha gestão na EJEL, utilizei a bagagem técnica combinada com a experiência em vendas para prospectar clientes de forma totalmente autônoma. Consegui converter o contato de um Engenheiro Civil, formulei o orçamento estratégico e fechei o contrato para o projeto completo deste edifício residencial multifamiliar.</p>
+              <p>A entrega ocorreu rigorosamente no prazo estabelecido, rendendo <strong>100% de feedback positivo</strong> e iniciando uma parceria contínua para o encaminhamento de novas demandas.</p>
+              <p><strong>Escopo Técnico:</strong> Dimensionamento de circuitos para múltiplas unidades residenciais (kitnets), áreas de uso comum de condomínio, equilíbrio dinâmico das fases e projeto de padrão de entrada coletivo conforme as normas vigentes da Cemig.</p>
+            </div>
+
+            <div id="pel01-plantas" class="sub-tab-content">
+              <p>Locação física de luminárias, tomadas de uso geral/específico e encaminhamento de eletrodutos em laje:</p>
+              <figure>
+                <img src="img/ejel/pel01/PEL(1)folha1.png" alt="Planta Baixa Térreo">
+                <figcaption>Planta Baixa - Pavimento Térreo e Garagens</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ejel/pel01/PEL(1)folha2.png" alt="Planta Baixa Tipo">
+                <figcaption>Planta Baixa - Distribuição dos Pavimentos Superiores (Kitnets)</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ejel/pel01/PEL(1)folha5.png" alt="Planta Baixa Detalhada">
+                <figcaption>Planta Baixa - Detalhamento das Próximas Unidades Habitacionais</figcaption>
+              </figure>
+            </div>
+
+            <div id="pel01-diagramas" class="sub-tab-content">
+              <p>Engenharia interna dos quadros, balanceamento de fases e cálculo de demanda:</p>
+              <figure>
+                <img src="img/ejel/pel01/PEL(1)folha3.png" alt="Diagrama Coletivo">
+                <figcaption>Diagrama Unifilar do Centro de Medição Coletiva da Concessionária</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ejel/pel01/PEL(1)folha4.png" alt="Quadro de Cargas">
+                <figcaption>Tabelas de Balanceamento de Fases (R-S-T) e Quadro Geral de Cargas</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ejel/pel01/PEL(1)folha6.png" alt="Diagrama de Prumada">
+                <figcaption>Diagrama de Prumada e Distribuição dos Alimentadores</figcaption>
+              </figure>
+              <figure>
+                <img src="img/ejel/pel01/PEL(1)folha7.png" alt="Detalhes de Aterramento">
+                <figcaption>Detalhes de Instalação, Malha de Aterramento e Caixas de Passagem</figcaption>
+              </figure>
+            </div>
+          </div>
+        </div>
+
+        <div id="tab-pel02" class="tab-content">
+  <div class="sub-portfolio-container">
+    <div class="sub-tab-buttons">
+      <button class="sub-tab-btn sub-active" data-subtarget="pel02-contexto">PEL 02: Contexto</button>
+      <button class="sub-tab-btn" data-subtarget="pel02-plantas">PEL 02: Plantas Baixas</button>
+      <button class="sub-tab-btn" data-subtarget="pel02-diagramas">PEL 02: Diagramas & Cargas</button>
+    </div>
+
+    <div id="pel02-contexto" class="sub-tab-content sub-active">
+      <p><strong>Prospecção Estratégica e Alinhamento Comercial (Ainda na Gestão EJEL):</strong></p>
+      <p>Este projeto consolida minha atuação na linha de frente comercial da empresa júnior. Fui o responsável direto por prospectar o cliente e conduzir toda a negociação, aplicando técnicas de conversão e entendimento das dores do contratante para fechar o contrato do zero.</p>
+      <p>O desafio consistia no desenvolvimento de um projeto de instalações elétricas para um **andar comercial completo de um edifício**, demandando uma abordagem técnica diferenciada para prever a flexibilidade de layouts de salas de negócios.</p>
+      <p><strong>Escopo Técnico:</strong> Dimensionamento e modelagem executados integralmente na plataforma **AltoQi Builder**. Foco em circuitos de distribuição de tomadas de uso geral para escritórios, iluminação otimizada para ambientes de trabalho, previsão de circuitos específicos para climatização de grande porte e balanceamento minucioso dos quadros parciais de embutir.</p>
+    </div>
+
+    <div id="pel02-plantas" class="sub-tab-content">
+      <p>Locação física de luminárias, tomadas de uso geral/específico e encaminhamento de eletrodutos no pavimento corporativo:</p>
+      <figure>
+        <img src="img/ejel/pel02/PEL02_folha2.png" alt="Projeto de Luz e Força Comercial">
+        <figcaption>Planta Baixa - Detalhamento das Instalações de Iluminação (Luz) e Tomadas (Força) do Andar Comercial</figcaption>
+      </figure>
+    </div>
+
+    <div id="pel02-diagramas" class="sub-tab-content">
+      <p>Engenharia de painéis, tabelas de dimensionamento de cargas e detalhamento unifilar/multifilar:</p>
+      <figure>
+        <img src="img/ejel/pel02/PEL02_folha1.png" alt="Diagramas Unifilares e Tabelas de Cargas">
+        <figcaption>Diagramas Unifilares, Multifilares e Tabelas Completas de Balanceamento de Cargas e Demanda</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div id="tab-pel03" class="tab-content">
+  <div class="sub-portfolio-container">
+    <div class="sub-tab-buttons">
+      <button class="sub-tab-btn sub-active" data-subtarget="pel03-contexto">PEL 03: Contexto</button>
+      <button class="sub-tab-btn" data-subtarget="pel03-plantas">PEL 03: Plantas & Detalhes</button>
+      <button class="sub-tab-btn" data-subtarget="pel03-diagramas">PEL 03: Diagramas & Cargas</button>
+    </div>
+
+    <div id="pel03-contexto" class="sub-tab-content sub-active">
+      <p><strong>Edifício de Eventos (Fidelização de Cliente EJEL):</strong></p>
+      <p>Este projeto destaca a confiabilidade do trabalho entregue pela empresa júnior, pois foi desenvolvido para um cliente que já fazia parte da nossa base (cliente fidelizado). Trata-se do projeto elétrico completo para um edifício térreo destinado à realização de eventos.</p>
+      <p>Ambientes de eventos exigem um planejamento elétrico minucioso devido à alta variação de carga (equipamentos de som, iluminação cênica e maquinário de buffet). O dimensionamento precisou prever essa flexibilidade e segurança operacional.</p>
+      <p><strong>Escopo Técnico:</strong> Elaborado inteiramente no <strong>AltoQi Builder</strong>. O projeto contempla divisões claras entre circuitos de luz e força, infraestrutura robusta com uso de eletrocalhas e perfilados aparentes (detalhados em projeto), e um quadro de cargas rigorosamente balanceado para suportar as demandas específicas do local.</p>
+    </div>
+
+    <div id="pel03-plantas" class="sub-tab-content">
+      <p>Distribuição de iluminação, tomadas e detalhamento executivo da infraestrutura aparente (eletrocalhas e suportes):</p>
+      <figure>
+        <img src="img/ejel/pel03/PEL03_folha1.png" alt="Planta Elétrica Geral e Detalhes de Instalação">
+        <figcaption>Planta Elétrica Geral, Legendas e Detalhamento Executivo (Descida de eletrocalha e fixação em alvenaria)</figcaption>
+      </figure>
+      <figure>
+        <img src="img/ejel/pel03/PEL03_folha2.png" alt="Planta de Luz e Planta de Força">
+        <figcaption>Separação de Circuitos: Planta de Luz (Esquerda) e Planta de Força (Direita) do Salão de Eventos</figcaption>
+      </figure>
+    </div>
+
+    <div id="pel03-diagramas" class="sub-tab-content">
+      <p>Dimensionamento de proteção, quadros de distribuição e levantamento de cargas totais:</p>
+      <figure>
+        <img src="img/ejel/pel03/PEL03_folha3.png" alt="Diagramas Unifilares, Multifilares e Tabelas de Carga">
+        <figcaption>Diagramas Unifilares/Multifilares e Tabelas de Cargas (Equilíbrio de Fases e Demanda)</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div id="tab-pel04" class="tab-content">
+  <div class="sub-portfolio-container">
+    <div class="sub-tab-buttons">
+      <button class="sub-tab-btn sub-active" data-subtarget="pel04-contexto">PEL 04: Contexto & Agilidade</button>
+      <button class="sub-tab-btn" data-subtarget="pel04-plantas">PEL 04: Plantas & Telecom</button>
+      <button class="sub-tab-btn" data-subtarget="pel04-padrao">PEL 04: Padrão de Entrada</button>
+    </div>
+
+    <div id="pel04-contexto" class="sub-tab-content sub-active">
+      <p><strong>Projeto Residencial Express (Prazo Crítico de 1 Semana - EJEL / Concessionária Energisa):</strong></p>
+      <p>Este projeto foi um verdadeiro teste de gerenciamento de tempo e eficiência técnica. O cliente possuía um prazo extremamente agressivo de apenas uma semana para a entrega dos projetos elétrico e de cabeamento estruturado para a aprovação do financiamento e execução de uma residência unifamiliar.</p>
+      <p>Assumi a responsabilidade pelo desenvolvimento completo no **AutoCAD**, aplicando um fluxo de trabalho otimizado para garantir rigor técnico e conformidade normativa sem estourar o cronograma do cliente.</p>
+      <p><strong>Escopo Técnico:</strong> Dimensionamento completo de circuitos de iluminação, tomadas de uso geral (TUGs) e circuitos dedicados para chuveiros e ar-condicionado. Integração de projeto de telecomunicações (dados, voz, TV e infraestrutura para CFTV/segurança). Todo o dimensionamento de demanda e o detalhamento do ramal de entrada foram projetados seguindo estritamente as normas vigentes da concessionária **Energisa**.</p>
+    </div>
+
+    <div id="pel04-plantas" class="sub-tab-content">
+      <p>Locação física de componentes elétricos, diagramas de distribuição e infraestrutura lógica/telecom:</p>
+      <figure>
+        <img src="img/ejel/pel04/PEL04_folha1.png" alt="Projeto Elétrico Residencial e Tabela de Cargas">
+        <figcaption>Planta Baixa - Distribuição Elétrica, Representação de Condutores e Tabela Geral de Cargas/Circuitos</figcaption>
+      </figure>
+      <figure>
+        <img src="img/ejel/pel04/PEL04_folha2.png" alt="Projeto de Telecomunicação Residencial">
+        <figcaption>Planta Baixa - Cabeamento Estruturado, Rede Lógica, Interfonia, TV e Diagramas Unifilares dos Quadros (QDC01 e QDC02)</figcaption>
+      </figure>
+    </div>
+
+    <div id="pel04-padrao" class="sub-tab-content">
+      <p>Detalhamento executivo do padrão de entrada exigido pela concessionária local:</p>
+      <figure>
+        <img src="img/ejel/pel04/PEL04_folha3.png" alt="Detalhe do Padrão de Entrada Energisa">
+        <figcaption>Desenho Técnico Executivo - Detalhamento do Ramal de Entrada (Padrão de Entrada em Vista) conforme normas da Energisa</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+<div id="tab-pel05" class="tab-content">
+  <div class="sub-portfolio-container">
+    <div class="sub-tab-buttons">
+      <button class="sub-tab-btn sub-active" data-subtarget="pel05-contexto">PEL 05: Contexto</button>
+      <button class="sub-tab-btn" data-subtarget="pel05-plantas">PEL 05: Plantas & Telecom</button>
+      <button class="sub-tab-btn" data-subtarget="pel05-padrao">PEL 05: Padrão de Entrada</button>
+    </div>
+
+    <div id="pel05-contexto" class="sub-tab-content sub-active">
+      <p><strong>Projeto Residencial Bifásico (Primeiro Projeto Executado em 2025):</strong></p>
+      <p>Este projeto marcou o início das execuções práticas do ano de 2025. Trata-se de uma residência unifamiliar onde o cliente trouxe uma exigência técnica muito específica: a infraestrutura deveria ser estritamente <strong>bifásica</strong>.</p>
+      <p>Projetos com alimentação bifásica exigem um rigor redobrado no momento de elaborar o Quadro de Distribuição de Circuitos (QDC). O grande desafio técnico que assumi foi realizar um balanceamento minucioso entre as duas fases (R e S). Distribuí estrategicamente as cargas pesadas (chuveiros elétricos, ares-condicionados) e os circuitos de iluminação e tomadas (TUGs) para garantir o equilíbrio do sistema e evitar o desarme dos disjuntores gerais por sobrecarga assimétrica.</p>
+      <p><strong>Escopo Técnico:</strong> Desenvolvimento da planta de luz e força, cálculo de demanda, estruturação da tabela de cargas para o sistema bifásico, projeto complementar de telecomunicações (dados, TV, CFTV e interfonia) e detalhamento executivo do ramal de entrada.</p>
+    </div>
+
+    <div id="pel05-plantas" class="sub-tab-content">
+      <p>Locação da infraestrutura elétrica, diagrama do quadro e projeto de rede lógica:</p>
+      <figure>
+        <img src="img/ejel/pel05/PEL05_folha1.png" alt="Projeto Elétrico e Diagrama Unifilar Bifásico">
+        <figcaption>Planta Elétrica Geral, Tabela de Cargas e Diagrama Unifilar detalhando o balanceamento nas Fases R e S</figcaption>
+      </figure>
+      <figure>
+        <img src="img/ejel/pel05/PEL05_folha2.png" alt="Projeto de Telecomunicação">
+        <figcaption>Projeto de Telecomunicação: Rede Lógica, Interfonia, Antena de TV e Câmeras de Segurança (CFTV)</figcaption>
+      </figure>
+    </div>
+
+    <div id="pel05-padrao" class="sub-tab-content">
+      <p>Detalhamento do ponto de entrega de energia dimensionado para a demanda bifásica:</p>
+      <figure>
+        <img src="img/ejel/pel05/PEL05_folha3.png" alt="Detalhe do Padrão de Entrada Bifásico">
+        <figcaption>Desenho Técnico - Detalhamento em Vista do Ramal de Entrada e Padrão de Medição</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+<div id="tab-ppci01" class="tab-content">
+  <div class="sub-portfolio-container">
+    <div class="sub-tab-buttons">
+      <button class="sub-tab-btn sub-active" data-subtarget="ppci01-contexto">PPCI 01: Contexto & Legislação</button>
+      <button class="sub-tab-btn" data-subtarget="ppci01-plantas">PPCI 01: Plantas de Segurança</button>
+      <button class="sub-tab-btn" data-subtarget="ppci01-detalhes">PPCI 01: Notas & Detalhes</button>
+    </div>
+
+    <div id="ppci01-contexto" class="sub-tab-content sub-active">
+      <p><strong>Primeiro Projeto de Prevenção e Combate a Incêndio e Pânico (PPCI):</strong></p>
+      <p>Este projeto marcou minha primeira atuação na área de engenharia de segurança contra incêndio e pânico. Trata-se do dimensionamento e detalhamento técnico completo dos sistemas de proteção para um edifício comercial de múltiplos pavimentos situado no estado do Rio de Janeiro.</p>
+      <p>Projetos interestaduais impõem o desafio de adaptação rápida a legislações locais. Toda a infraestrutura foi projetada em estrita conformidade com o <strong>COSCIP (Código de Segurança Contra Incêndio e Pânico)</strong> e as Notas Técnicas vigentes do <strong>CBMERJ (Corpo de Bombeiros Militar do Estado do Rio de Janeiro)</strong>.</p>
+      <p><strong>Escopo Técnico:</strong> Mapeamento e locação de extintores portáteis (água, CO2 e pó químico), dimensionamento e posicionamento de luminárias de emergência e blocos autônomos, sinalização fotoluminescente de rota de fuga e salvamento, indicação de saídas de emergência e portas corta-fogo, além do levantamento detalhado de notas de execução e simbologias normatizadas.</p>
+    </div>
+
+    <div id="ppci01-plantas" class="sub-tab-content">
+      <p>Disposição física dos elementos de combate, iluminação de emergência e rotas de evacuação nos pavimentos:</p>
+      <figure>
+        <img src="img/ejel/ppci01/PPCI01_folha1.png" alt="Planta Baixa de Combate a Incêndio Pavimentos Iniciais">
+        <figcaption>Planta Baixa - Locação de Equipamentos, Rotas de Fuga e Sinalização dos Primeiros Pavimentos</figcaption>
+      </figure>
+      <figure>
+        <img src="img/ejel/ppci01/PPCI01_folha2.png" alt="Planta Baixa Cobertura e Pavimentos Superiores">
+        <figcaption>Planta Baixa - Detalhamento das Medidas de Segurança Contra Incêndio nos Pavimentos Superiores e Cobertura</figcaption>
+      </figure>
+    </div>
+
+    <div id="ppci01-detalhes" class="sub-tab-content">
+      <p>Legendas normatizadas pelo CBMERJ, notas de especificação de materiais e detalhes construtivos executivos:</p>
+      <figure>
+        <img src="img/ejel/ppci01/PPCI01_folha3.png" alt="Notas Técnicas e Legenda CBMERJ">
+        <figcaption>Memorial Técnico em Prancha - Legendas de Equipamentos, Especificações Construtivas e Notas Gerais de Projeto</figcaption>
+      </figure>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="aperamModal" class="modal">
+    <div class="modal-content">
+      <button class="close-button">&times;</button>
+      <h3>Aperam S.A. (Estágio)</h3>
+      <h4>Estagiário de Férias (Jan 2025 - Mar 2025)</h4>
+      <p>Atuação prática em ambiente industrial metalúrgico de grande porte por meio de uma iniciativa de <i>job rotation</i> realizada por conta própria, passando de forma autônoma por quatro setores essenciais:</p>
+      <ul>
+        <li><strong>Manutenção:</strong> Otimização tecnológica através do uso do NotebookLM para automatizar o preenchimento de planilhas de Análise Preliminar de Risco (APR), diminuindo o tempo de execução em 90% (Poka-Yoke nível 1). Construção de painéis visuais de monitoramento no Looker Studio.</li>
+        <li><strong>Engenharia:</strong> Colaboração direta no projeto de especificação, posicionamento e aplicação de sensores destinados ao monitoramento da bacia de efluentes.</li>
+        <li><strong>Alta Tensão & Utilidades:</strong> Acompanhamento de rotinas operacionais de manutenção preventiva e corretiva em subestações e infraestruturas de potência, além do projeto de automação do sistema de transporte de percolado.</li>
+        <li><strong>Sistema de Gestão:</strong> Suporte nos processos de controle documental e de qualidade via sistema SAP, análises severas de riscos operacionais por metodologias HAZOP e FMEA, além do acompanhamento analítico em auditorias externas de conformidade legal com as normas ambientais e ocupacionais ISO 14001 e ISO 45001.</li>
+      </ul>
+    </div>
+  </div>
+
+<div id="icModal" class="modal">
+  <div class="modal-content">
+    <button class="close-button">&times;</button>
+    <h3>Pesquisador em Iniciação Científica | UFSJ</h3>
+    <h4>Desenvolvimento de Protótipo Térmico (Jan 2025 - Atualmente)</h4>
+
+    <div class="sub-portfolio-container">
+      <div class="sub-tab-buttons">
+        <button class="sub-tab-btn sub-active" data-subtarget="ic-contexto">Contexto da Pesquisa</button>
+        <button class="sub-tab-btn" data-subtarget="ic-galeria">Bancada & Protótipo</button>
+      </div>
+
+      <div id="ic-contexto" class="sub-tab-content sub-active">
+        <p>Pesquisa focada na área de eficiência energética e aproveitamento térmico industrial através do planejamento, cálculo e construção física de uma estufa solar rotativa voltada para a secagem controlada de resíduos orgânicos.</p>
+        <p>Responsável direto pela arquitetura de hardware de automação e instrumentação da planta piloto, utilizando microcontroladores Arduino acoplados a uma malha de sensores de temperatura e umidade para aquisição contínua de dados em tempo real.</p>
+        <p>Atuação no tratamento estatístico das informações e geração de gráficos de desempenho usando Excel e Power BI, estruturando relatórios acadêmicos e memoriais complexos de cálculo com a linguagem tipográfica <strong>LaTeX</strong>.</p>
+      </div>
+
+      <div id="ic-galeria" class="sub-tab-content">
+        <p>Registros fotográficos do desenvolvimento físico, testes de instrumentação e montagem de bancada do protótipo:</p>
+        
+        <figure>
+          <img src="img/ic/testechurrasqueira.png" alt="Testes de Instrumentação do Protótipo em Bancada Aberta">
+          <figcaption>Montagem experimental de bancada aberta: integração do motor de acionamento rotativo, cilindros perfurados de secagem e calibração da malha de sensores conectados ao sistema de aquisição de dados (Arduino).</figcaption>
+        </figure>
+
+        <figure>
+          <img src="img/ic/churrasqueirafechada.jpeg" alt="Protótipo da Estufa Solar Coberto no Laboratório">
+          <figcaption>Câmara do protótipo térmico estruturada e selada com cobertura translúcida para os ensaios de ganho térmico e eficiência por radiação simulada em ambiente laboratorial.</figcaption>
+        </figure>
+      </div>
+    </div>
+  </div>
+</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+<!-- Contato -->
+<section id="contact">
+  <h2>Contato</h2>
+  <p>Você pode me encontrar em:</p>
+  <ul class="social-links">
+    <li><a href="www.linkedin.com/in/lucas-állex-334034206" target="_blank">LinkedIn</a></li>
+    <li><a href="mailto:lucasallex37@gmail.com">Email</a></li>
+    <li><a href="https://github.com/lucasallex" target="_blank">GitHub</a></li>
+    <li><a href="tel:+5531994599390">Telefone: +55 (31) 99459-9390</a></li>
+  </ul>
+</section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2026 Lucas Állex Carvalho de Oliveira - Hospedado no GitHub Pages</p>
+  </footer>
+</body>
+
+
+</html>
